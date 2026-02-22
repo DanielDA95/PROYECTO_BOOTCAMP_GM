@@ -1,0 +1,1 @@
+const botonAplicar = document.getElementById("btn-aplicar")

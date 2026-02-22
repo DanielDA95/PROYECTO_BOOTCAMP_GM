@@ -21,14 +21,21 @@
 
       <section id="controles">
         <h2>Panel de control</h2>
-        <p>Control de Turbina 1:</p>
-        <input class="input-panel" type="number" placeholder="RPM Deseadas" />
-        <button class="btn-accion">Aplicar Velocidad</button>
+        <label for="selector-turbina">Seleccione una turbina</label>
+        <select id="selector-turbina">
+          <option value="opcion1">Turbina Alfa</option>
+          <option value="optcion2">Turbina Beta</option>
+          <option value="optcion3">Turbina Gamma</option>
+        </select>
+        <label for="input-rpm">Velocidad (RPM):</label>
+        <input id="input-rpm" type="number" placeholder="RPM Deseadas" />
+        <button class="btn-accion" id="btn-aplicar">Aplicar Velocidad</button>
       </section>
     </main>
 
     <footer>
       <p>&copy; 2025 EcoControl Systems - Bilbao, España</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
